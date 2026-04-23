@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: #333;
+      color: white;
+      padding: 50px 20px;
+    }
+
+    .hero img {
+      width: 120px;
+      border-radius: 50%;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 20px;
+    }
+
+    /* Projects */
+    .projects {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .project-box {
+      background: #ddd;
+      padding: 20px;
+      width: 150px;
+    }
+
+    /* Button */
+    .btn {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    /* Contact */
+    .contact {
+      background: #f4f4f4;
+    }
+  </style>
+
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="profile.jpg" alt="My Photo">
+    <h1>Hi, I'm Venkatesh</h1>
+    <p>Aspiring Web Developer | HTML | CSS | JavaScript</p>
+    <a href="#contact" class="btn">Contact Me</a>
+  </section>
+
+  <!-- About -->
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I am a passionate web developer who enjoys building clean and responsive websites.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section class="projects">
+    <div class="project-box">To-Do App</div>
+    <div class="project-box">Recipe Website</div>
+    <div class="project-box">Learning Hub</div>
+  </section>
+
+  <!-- Demo -->
+  <section>
+    <h2>See My Work</h2>
+    <a href="https://github.com/revelli-venkatesh/portfolio" target="_blank" class="btn">
+      View Demo
+    </a>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: venkateshrevelli2005@gmail.com</p>
+    <p>Phone: +91 99639 42XXX </p>
+  </section>
+
+</body>
+</html>
